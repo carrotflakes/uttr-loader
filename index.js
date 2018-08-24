@@ -1,4 +1,4 @@
-const Compiler = require('uttr-js');
+const {Compiler} = require('uttr-js');
 
 function loader(source) {
   if (this.cacheable) {
